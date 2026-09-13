@@ -1,0 +1,175 @@
+ /*STYLES FOR BODY*/
+  body{
+    max-width: 1000px;
+    margin: 0 auto;/*
+    width: 90%;
+    border: 3px solid orange;*/
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+   background-color: #1E1028;
+
+
+    border: 2px solid black;
+    border-radius: 10px;
+   /* overflow: hidden;*/
+
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.4);
+}
+
+html {
+    background-color: #E8D8E5;
+}
+
+/*STYLES FOR HEADER*/
+header {
+   /* border: 2px solid black;*/
+    padding: 0.1em;
+    color: #9b51c0;
+    
+}
+
+h1 {
+    text-align: center;
+   
+}
+
+/*STYLES FOR MAIN*/
+/*main {
+   border: 3px solid red;
+}*/
+
+/*STYLES FOR SECTION*/
+section {
+   /* border: 1px solid green;*/
+    /*text-align: center;*/
+    display: flex;
+    color:#ae6bc9;
+}
+
+
+   /* PROJECT BUTTON */
+.photo a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    background-color: #E8A6C8;
+    color: #1E1028;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* WHEN THE MOUSE IS OVER THE BUTTON */
+.photo a:hover {
+    background-color: #C9A7E8;
+    color: #1E1028;
+}
+
+
+h3{
+    color:#542566;
+}
+
+section div p{
+    font-weight: bold;
+    /*font-size: 2em;*/
+}
+
+.photo{
+   /* border: 1px solid purple;*/
+    margin-right: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.content{
+    /* border: 1px solid yellow;*/
+    padding: 0.5em;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 3.75em;
+    /*font-weight: bold;
+    margin-bottom: 0.5em;*/
+}
+
+.content p{
+    font-size: 1.5em;
+    /*font-weight: bold;*/
+    /*margin-bottom: 0.5em;*/
+}
+
+/*STYLES FOR ASIDE*/
+aside {
+    /* border: 3px solid blue; */
+    color:#FFFFFF;
+}
+
+.interests{
+    /* border: 1px solid pink; */
+    padding: 0.5em;
+    text-align: center;
+}
+
+aside ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+     text-align: left;
+     padding-left: 23em;
+}
+
+aside ul li {
+    padding: 0.2em;
+    margin: 0.2em;
+    line-height: 1.5em;
+}
+
+.git{
+     text-align: center;
+   padding: 1em;
+    text-align: center;
+   padding: 1em;
+}
+.git a{
+    color:pink;
+}
+
+.git a:hover{
+    color: #C9A7E8;
+}
+   
+
+
+
+.git h3 {
+    margin-top: 10px;
+}
+
+.git p {
+    display: inline-block;
+    margin: 0 50px;
+    margin-bottom: 10px;
+}
+
+/*.interests {
+    text-align: center;
+    padding: 1em;
+}
+
+.interests button {
+    background-color: #E8A6C8;
+    color: #1E1028;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.interests button:hover {
+    background-color: #C9A7E8;
+}
